@@ -1,0 +1,63 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f5f5dc; /* Fondo beige */
+    font-family: Arial, sans-serif;
+}
+
+.perfil {
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #c4cebf; /* Color de fondo verde claro */
+}
+
+.perfil-container {
+    display: inline-block;
+}
+
+h1, h2, h3, p {
+    margin: 10px 0;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    display: inline-block;
+    transition: background-color 0.3s;
+}
+
+a:hover {
+    background-color: #e0e0e0; /* Color de fondo al pasar el ratón */
+}
+
+/* Estilos para el enlace en cuadrado */
+.cuadrado-enlace {
+    display: inline-block;          /* Hace que el enlace se comporte como un bloque en línea */
+    padding: 10px 20px;            /* Espacio interno alrededor del texto del enlace */
+    margin: 10px 0;                /* Margen alrededor del enlace para separación */
+    border: 2px solid #007BFF;     /* Borde azul alrededor del enlace */
+    border-radius: 5px;            /* Esquinas redondeadas del cuadrado */
+    background-color: #fff;        /* Fondo blanco del cuadrado */
+    color: #007BFF;                /* Color del texto del enlace */
+    text-decoration: none;         /* Quita el subrayado del enlace */
+    font-weight: bold;             /* Hace que el texto del enlace esté en negrita */
+    transition: background-color 0.3s, color 0.3s; /* Transiciones suaves para el cambio de color */
+}
+
+.cuadrado-enlace:hover {
+    background-color: #007BFF;     /* Cambia el fondo a azul al pasar el ratón */
+    color: #fff;                   /* Cambia el color del texto a blanco al pasar el ratón */
+}
+
+
+
+
+
